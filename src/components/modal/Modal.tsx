@@ -67,14 +67,20 @@ const ModalDefalt: React.FC<ModalProps> = ({
     <>
       <EditIcon onClick={() => setOpen(true)} />
       <Modal open={open} onClose={() => setOpen(false)}>
-        <Box component={Paper} position="absolute" top="10%" left="10%" sx={{}}>
+        <Box
+          component={Paper}
+          position="absolute"
+          top="10%"
+          left={"5%"}
+          sx={{}}
+        >
           <Grid container spacing={3}>
             <Grid item xs={12}>
               <Typography
                 variant="h1"
                 sx={{
+                  paddingLeft: "15px",
                   fontSize: "40px",
-                  textAlign: "center",
                   paddingBottom: "40px",
                   backgroundColor: "rgb(43, 56, 91)",
                   color: "rgb(221, 221, 229)",
