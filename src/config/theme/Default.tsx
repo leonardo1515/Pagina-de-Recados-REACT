@@ -53,7 +53,7 @@ const theme = createTheme({
     MuiPaper: {
       styleOverrides: {
         root: {
-          background: "rgb(245, 240, 234)",
+          background: "rgb(237, 239, 249)",
         },
       },
     },
